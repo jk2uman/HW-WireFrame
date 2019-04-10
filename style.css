@@ -3,18 +3,14 @@ body {
     color: #777; 
     background: gold;
     font-size: 30px;
- 
+    width: 575px;
+    height: 542px;
     }
     
-    header 
-            img {
-                display: block;
-                margin: 0 auto 0 auto;
-                
-                
-            
-               
-    background: #ebebeb;
+    header {
+     text-align: right;
+     background: blue;
+     
     }
     nav 
         span  {
@@ -26,12 +22,17 @@ body {
     
     aside 
         {
-         font-size: 25px;
+         font: 25px;
          text-align: center;
          width: 495px;
          display: block;
          background: #ebebeb;
          float: right;
+         height: 350px;
+    }
+
+    .images {
+         width: 100%;
     }
    
     section 
@@ -54,23 +55,29 @@ body {
     }
     
    h1 {
-         color:#777;
+         color:rgb(243, 21, 21);
          background: #ebebeb;
     }
     h2 {
-         color: #777;
+         color: rgb(114, 43, 43);
          background: #ebebeb;
-
-    }
+         font-size: 25px; 
+     }
     h3 {
-         color:#777;
+         color:rgb(49, 22, 22);
          background: #ebebeb;
+         font-size: 25px;
+    }
+    h4 {
+         color: red;
+         background: #ebebeb;
+         font-size: 25px;
     }
     p {
-         color: #777;
+         color: rgb(175, 6, 14);
          background: #ebebeb;
-    
-    }
+         font-size: 30px;
+     }
 
     footer {
          position: fixed;
